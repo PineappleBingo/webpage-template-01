@@ -213,7 +213,8 @@ body {
   #header-nav-container #navigation li.drop:hover ul.sub-menu {
     display: block;
     position: absolute;
-    top: 37px; }
+    top: 37px;
+    left: -40px; }
   #header-nav-container #navigation .sub-menu > li {
     float: left;
     clear: left;
@@ -261,12 +262,11 @@ body {
   padding-top: 130px;
   margin-top: 80px;
   position: relative;
+  background-image: url(../img/471853762.jpg);
   background-repeat: none;
-  background-position: top;
   background-size: cover;
   min-height: 800px;
-  border-top: 8px solid #33cc33;
-  color: #fff; }
+  border-top: 8px solid #33cc33; }
   .footer-bg a {
     text-decoration: none; }
 

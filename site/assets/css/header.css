@@ -97,7 +97,8 @@
   #header-nav-container #navigation li.drop:hover ul.sub-menu {
     display: block;
     position: absolute;
-    top: 37px; }
+    top: 37px;
+    left: -40px; }
   #header-nav-container #navigation .sub-menu > li {
     float: left;
     clear: left;
