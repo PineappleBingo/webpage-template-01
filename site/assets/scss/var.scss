@@ -1,0 +1,50 @@
+/*/////Variables//////*/
+/*/Numbers and colors/*/
+$darkgray: #333333;
+$lightgray: #999999;
+
+$lightgreen: #00cc00;
+$greens:33cc33;
+$green: #006600;
+
+$white: #fff;
+
+/*/////Mixins//////*/
+
+@mixin sprites($x: horizontal, $y: vertical){
+	display: block; overflow: hidden; 
+	text-indent: -2000em; 
+	background-image: url(../img/sprites.png);
+	background-repeat: none;
+	background-position: $x $y;
+	background-size: 500px;
+} 
+
+@mixin clearFix{
+    content:'.';
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+}
+
+// @mixin galleryList($x){
+//     @include clearFix;
+// 	li{float:left; width:100% / $x; text-align:center;} 
+// 	li:nth-child( $xn + ($x+1) ){ clear:left;  }
+// 	img{display:block; margin:0 auto;}
+// }
+
+/*////Mixin With Arguments////*/
+@mixin box-sizing($x: border-box){
+	-webit-box-sizing: $x;
+	-moz-box-sizing:$x;
+	box-sizing:$x;
+}
+
+/*////Call Out A Mixin////*/
+.clear-fix{
+	@include clearFix;
+}
+
+

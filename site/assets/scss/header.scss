@@ -1,0 +1,107 @@
+@import 'var';
+
+.header{
+	display: block;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	top: 0;
+	background: $white;
+	z-index: 100;
+
+	a{ text-decoration: none;
+		text-align: center;		
+	}
+	ul{ list-style: none;}
+	li{ text-align: center;}
+	
+	.container{
+		height: 100%;
+	}
+}
+
+.offset{
+
+	padding-top: 120px;
+}
+
+.logo{
+	width: 251px;
+	height: 67px;
+	border: 1px solid #f00;
+	display: block;
+	float: left;
+	margin-top: 10px;
+	//@include sprites(0px, 10px);
+}
+
+#header-nav-container{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	box-sizing: border-box;
+
+	#navigation{
+		margin: 0;
+		padding: 0;
+		display: block;
+		&:after{ @include clearFix; }
+	}
+
+	#navigation > li{
+		float: left;
+		display: block;
+		position: relative;
+		box-sizing: border-box;
+		//margin-right: 15px;
+		//&:last-child{ margin: 0;}
+	}
+
+	#navigation li a{
+		display: block;
+		padding: 10px 15px;
+		background: #666;
+		color: #999;
+		&:hover{
+			color: #fff;
+			background: #333;
+		}
+	}
+	
+	#navigation ul.sub-menu{
+		display: none;
+	}
+
+	#navigation li.drop:hover ul.sub-menu{
+		display: block;
+		position: absolute;
+		top: 43px;
+		left: -40px;
+	
+	}
+	
+	#navigation ul.sub-menu{
+		li{
+			display: block;
+		}
+		a{
+			display: block;
+			padding: 10px 15px;;
+			white-space: nowrap;
+		}
+	
+	}
+	#navigation li.drop{
+		/*contents of list*/
+	}
+
+	#navigation .drop{
+	}
+	
+	#navigation .drop:hover {
+	}
+
+	&:after{ @include clearFix; }
+}
+

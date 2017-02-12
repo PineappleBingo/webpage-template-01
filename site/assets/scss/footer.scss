@@ -1,0 +1,38 @@
+@import 'var';
+
+.footer-bg{
+	display: block;
+	box-sizing: border-box;
+	padding-top: 20px;
+	margin-top: 20px;
+	
+	background-image: url(../img/525298037.jpg);
+	background-repeat: none;
+	background-position: center-bottom;
+	//background-attachment: fixed;
+	//background-position: $x $y;
+	background-size: contain;
+	min-height: 800px;
+
+	color: $white;
+	a{
+		text-decoration: none;
+	}
+}
+
+.footer{
+	border: 1px solid #f00;
+	
+}
+
+.footer-bottom{
+	background: $darkgray;
+	//opacity: 
+}
+.site-by{
+	float: right;
+
+}
+.copy-right{
+	float: left;
+}

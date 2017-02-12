@@ -1,0 +1,19 @@
+// @import 'reset';
+@import 'var';
+@import 'grid';
+
+.content-box{
+	background: #333;
+}
+
+.slider-wrapper{
+	display: block;
+	width: 100%;
+	height: 500px;
+	border: 1px solid $white;
+	background-color: #ccc;
+}
+
+.slider{
+	text-align: center;
+} // temp.

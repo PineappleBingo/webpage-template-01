@@ -1,0 +1,37 @@
+/*/////Variables//////*/
+/*/Numbers and colors/*/
+/*/////Mixins//////*/
+/*////Mixin With Arguments////*/
+/*////Call Out A Mixin////*/
+.clear-fix {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+.footer-bg {
+  display: block;
+  box-sizing: border-box;
+  padding-top: 20px;
+  margin-top: 20px;
+  background-image: url(../img/525298037.jpg);
+  background-repeat: none;
+  background-position: center-bottom;
+  background-size: contain;
+  min-height: 800px;
+  color: #fff; }
+  .footer-bg a {
+    text-decoration: none; }
+
+.footer {
+  border: 1px solid #f00; }
+
+.footer-bottom {
+  background: #333333; }
+
+.site-by {
+  float: right; }
+
+.copy-right {
+  float: left; }
