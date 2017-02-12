@@ -3,7 +3,7 @@
 @import 'grid';
 
 .content-box{
-	background: #333;
+	//background: #333;
 }
 
 .slider-wrapper{
@@ -12,6 +12,10 @@
 	height: 500px;
 	border: 1px solid $white;
 	background-color: #ccc;
+}
+
+.hotspots-wrapper{
+	text-align: center;
 }
 
 .slider{
