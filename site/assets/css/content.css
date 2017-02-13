@@ -4,3 +4,24 @@ body {
   body a {
     text-decoration: none;
     color: #fff; }
+
+/*//////Image Classes/////*/
+.alignleft {
+  margin: 0 auto;
+  display: block; }
+  @media only screen and (min-width: 480px) {
+    .alignleft {
+      float: left;
+      margin: 0 30px 15px 0; } }
+
+.alignright {
+  margin: 0 auto;
+  display: block; }
+  @media only screen and (min-width: 480px) {
+    .alignright {
+      float: right;
+      margin: 0  0 30px 15px; } }
+
+.aligncenter {
+  margin: 0 auto;
+  display: block; }

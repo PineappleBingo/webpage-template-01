@@ -3,37 +3,63 @@
 .footer-bg{
 	display: block;
 	box-sizing: border-box;
-	padding-top: 130px;
+	padding-top: 50px;
 	margin-top: 80px;
 	position: relative;
+	
 	background-image: url(../img/471853762.jpg);
-	background-repeat: none;
-	// background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center top;
 	//background-attachment: fixed;
-	//background-position: $x $y;
-	background-size: cover;
-	min-height: 800px;
+
+	min-height: 1000px;
 	border-top: 8px solid #33cc33;
 
 	//color: $white;
 	a{
 		text-decoration: none;
+		color: #333;
 	}
 }
 
 .footer{
 	border: 1px solid #f00;
-	min-height: 500px;
+	min-height: 300px;
+	position: absolute;
+	top: 380px;
+	width: 100%;
 }
 
+.partners{
+	margin: 20px auto;
+	padding: 15px;
+	text-align: center;
+	
+	img{
+		display: inline-block;
+		//max-width: 150px;
+		//height: auto;
+		//width: 100%;
+		margin: 10px;
+		background: #ff0;
+		
+		width: 150px;
+		height: 80px;
+	}
+}
+
+
 .footer .container{
-	background: $darkgray;
+	//background: $darkgray;
 }
 
 .footer-column-one{
 	border: 1px solid #ff0;
-	background: $darkgray;
+	background: #fff;
+	opacity: .7;
 	min-height: 300px;
+
 }
 
 .footer-column-two{
@@ -58,6 +84,11 @@
 	margin-top: 10px;
 	@include sprites(0px, -79px);
 
+}
+
+ul.address{
+	list-style: none;
+	
 }
 
 .social-media ul{
@@ -117,11 +148,9 @@
 	}
 }
 
-
-
 .footer-bottom{
 	display: block;
-	background: $darkgray;
+	background: #33cc33;
 	position: absolute;
 	bottom: 50px;
 	width: 100%;

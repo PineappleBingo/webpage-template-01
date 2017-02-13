@@ -114,6 +114,27 @@ body {
     text-decoration: none;
     color: #fff; }
 
+/*//////Image Classes/////*/
+.alignleft {
+  margin: 0 auto;
+  display: block; }
+  @media only screen and (min-width: 480px) {
+    .alignleft {
+      float: left;
+      margin: 0 30px 15px 0; } }
+
+.alignright {
+  margin: 0 auto;
+  display: block; }
+  @media only screen and (min-width: 480px) {
+    .alignright {
+      float: right;
+      margin: 0  0 30px 15px; } }
+
+.aligncenter {
+  margin: 0 auto;
+  display: block; }
+
 /*/////Variables//////*/
 /*/Numbers and colors/*/
 /*/////Mixins//////*/
@@ -263,27 +284,41 @@ body {
 .footer-bg {
   display: block;
   box-sizing: border-box;
-  padding-top: 130px;
+  padding-top: 50px;
   margin-top: 80px;
   position: relative;
   background-image: url(../img/471853762.jpg);
-  background-repeat: none;
-  background-size: cover;
-  min-height: 800px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  min-height: 1000px;
   border-top: 8px solid #33cc33; }
   .footer-bg a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #333; }
 
 .footer {
   border: 1px solid #f00;
-  min-height: 500px; }
+  min-height: 300px;
+  position: absolute;
+  top: 380px;
+  width: 100%; }
 
-.footer .container {
-  background: #333333; }
+.partners {
+  margin: 20px auto;
+  padding: 15px;
+  text-align: center; }
+  .partners img {
+    display: inline-block;
+    margin: 10px;
+    background: #ff0;
+    width: 150px;
+    height: 80px; }
 
 .footer-column-one {
   border: 1px solid #ff0;
-  background: #333333;
+  background: #fff;
+  opacity: .7;
   min-height: 300px; }
 
 .footer-column-two {
@@ -308,6 +343,9 @@ body {
   background-repeat: none;
   background-position: 0px -79px;
   background-size: 500px; }
+
+ul.address {
+  list-style: none; }
 
 .social-media ul {
   list-style: none; }
@@ -423,7 +461,7 @@ body {
 
 .footer-bottom {
   display: block;
-  background: #333333;
+  background: #33cc33;
   position: absolute;
   bottom: 50px;
   width: 100%;
@@ -437,7 +475,8 @@ body {
 
 body {
   font-size: 18px;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  color: #333; }
 
 .container {
   position: relative;
