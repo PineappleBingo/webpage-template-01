@@ -12,7 +12,8 @@ $white: #fff;
 /*/////Mixins//////*/
 
 @mixin sprites($x: horizontal, $y: vertical){
-	display: block; overflow: hidden; 
+	display: block; 
+	overflow: hidden; 
 	text-indent: -2000em; 
 	background-image: url(../img/sprites.png);
 	background-repeat: none;

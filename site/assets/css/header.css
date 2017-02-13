@@ -29,12 +29,12 @@
   .header .container {
     height: 100%; }
 
-.offset {
-  padding-top: 130px; }
+.off-set {
+  padding-top: 110px; }
 
 .logo {
-  width: 251px;
-  height: 67px;
+  width: 250px;
+  height: 55px;
   display: block;
   float: left;
   margin-top: 10px;
@@ -43,7 +43,7 @@
   text-indent: -2000em;
   background-image: url(../img/sprites.png);
   background-repeat: none;
-  background-position: 0px 10px;
+  background-position: 0px -195px;
   background-size: 500px; }
 
 #header-nav-container {
@@ -66,7 +66,7 @@
     display: block;
     position: relative;
     vertical-align: bottom;
-    margin-right: 24px; }
+    margin-right: 20px; }
     #header-nav-container #navigation > li:last-child {
       margin: 0; }
     #header-nav-container #navigation > li:hover {
@@ -76,7 +76,11 @@
     padding: 10px 9px; }
   #header-nav-container #navigation > li:hover > a {
     color: #fff;
-    background: #33cc33;
+    background: #2DBE2D;
+    border-radius: 10px 10px 0px 0px; }
+  #header-nav-container .donation-button {
+    color: #fff !important;
+    background: #9AFF2B;
     border-radius: 10px 10px 0px 0px; }
   #header-nav-container #navigation li a {
     display: block;
@@ -114,7 +118,7 @@
     font-weight: 300;
     width: 100%; }
     #header-nav-container #navigation .sub-menu > li a:hover {
-      background: #00cc00; }
+      background: #2DBE2D; }
   #header-nav-container #navigation .sub-menu > li:first-child a {
     border-radius: 0px 5px 0px 0px; }
   #header-nav-container #navigation .sub-menu > li:last-child a {

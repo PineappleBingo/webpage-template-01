@@ -71,6 +71,106 @@
     height: 0;
     visibility: hidden; }
 
+.facebook-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: 0px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .facebook-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: 0px -440px;
+    background-size: 500px; }
+
+.twitter-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -60px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .twitter-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -60px -440px;
+    background-size: 500px; }
+
+.googleplus-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -120px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .googleplus-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -120px -440px;
+    background-size: 500px; }
+
+.youtube-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -180px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .youtube-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -180px -440px;
+    background-size: 500px; }
+
+.instagram-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -240px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .instagram-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -240px -440px;
+    background-size: 500px; }
+
 .footer-bottom {
   display: block;
   background: #333333;

@@ -145,12 +145,12 @@ body {
   .header .container {
     height: 100%; }
 
-.offset {
-  padding-top: 130px; }
+.off-set {
+  padding-top: 110px; }
 
 .logo {
-  width: 251px;
-  height: 67px;
+  width: 250px;
+  height: 55px;
   display: block;
   float: left;
   margin-top: 10px;
@@ -159,7 +159,7 @@ body {
   text-indent: -2000em;
   background-image: url(../img/sprites.png);
   background-repeat: none;
-  background-position: 0px 10px;
+  background-position: 0px -195px;
   background-size: 500px; }
 
 #header-nav-container {
@@ -182,7 +182,7 @@ body {
     display: block;
     position: relative;
     vertical-align: bottom;
-    margin-right: 24px; }
+    margin-right: 20px; }
     #header-nav-container #navigation > li:last-child {
       margin: 0; }
     #header-nav-container #navigation > li:hover {
@@ -192,7 +192,11 @@ body {
     padding: 10px 9px; }
   #header-nav-container #navigation > li:hover > a {
     color: #fff;
-    background: #33cc33;
+    background: #2DBE2D;
+    border-radius: 10px 10px 0px 0px; }
+  #header-nav-container .donation-button {
+    color: #fff !important;
+    background: #9AFF2B;
     border-radius: 10px 10px 0px 0px; }
   #header-nav-container #navigation li a {
     display: block;
@@ -230,7 +234,7 @@ body {
     font-weight: 300;
     width: 100%; }
     #header-nav-container #navigation .sub-menu > li a:hover {
-      background: #00cc00; }
+      background: #2DBE2D; }
   #header-nav-container #navigation .sub-menu > li:first-child a {
     border-radius: 0px 5px 0px 0px; }
   #header-nav-container #navigation .sub-menu > li:last-child a {
@@ -316,6 +320,106 @@ body {
     clear: both;
     height: 0;
     visibility: hidden; }
+
+.facebook-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: 0px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .facebook-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: 0px -440px;
+    background-size: 500px; }
+
+.twitter-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -60px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .twitter-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -60px -440px;
+    background-size: 500px; }
+
+.googleplus-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -120px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .googleplus-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -120px -440px;
+    background-size: 500px; }
+
+.youtube-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -180px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .youtube-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -180px -440px;
+    background-size: 500px; }
+
+.instagram-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -240px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .instagram-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -240px -440px;
+    background-size: 500px; }
 
 .footer-bottom {
   display: block;
