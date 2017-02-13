@@ -117,12 +117,26 @@
 .hotspots-wrapper h2 {
   text-align: center; }
 
-.slider a {
-  position: absolute;
-  bottom: 10%;
-  right: 50%;
-  color: #fff;
-  background: #33cc33;
-  padding: 8px 12px;
-  border-radius: 10px;
-  text-transform: uppercase; }
+.slider {
+  display: block;
+  min-height: 250px;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/slider-img-01.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-position: center top;
+  border: none; }
+  @media only screen and (min-width: 600px) {
+    .slider {
+      min-height: 600px; } }
+  .slider a {
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+    color: #fff;
+    background: #33cc33;
+    padding: 8px 12px;
+    border-radius: 10px;
+    text-transform: uppercase; }
