@@ -16,11 +16,12 @@
   padding-top: 50px;
   margin-top: 80px;
   position: relative;
+  border: 1px solid #ff0;
   background-image: url(../img/471853762.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center top;
-  min-height: 1000px;
+  min-height: 1200px;
   border-top: 8px solid #33cc33; }
   .footer-bg a {
     text-decoration: none;
@@ -30,7 +31,7 @@
   border: 1px solid #f00;
   min-height: 300px;
   position: absolute;
-  top: 380px;
+  top: 400px;
   width: 100%; }
 
 .partners {
@@ -77,8 +78,12 @@ ul.address {
   list-style: none; }
 
 .social-media ul {
-  list-style: none; }
+  list-style: none;
+  border: 1px solid #fff;
+  margin: 0;
+  padding: 0; }
   .social-media ul li {
+    display: inline-block;
     float: left;
     margin: 5px; }
   .social-media ul:after {
@@ -191,8 +196,6 @@ ul.address {
 .footer-bottom {
   display: block;
   background: #33cc33;
-  position: absolute;
-  bottom: 50px;
   width: 100%;
   padding: 20px 0; }
 
