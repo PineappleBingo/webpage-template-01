@@ -6,7 +6,10 @@
 	//background: #333;
 	a{
 		color: #333;
-		
+	}
+
+	.page-content{
+		padding: 10px;
 	}
 }
 
@@ -35,10 +38,15 @@
 	width: 100%;
 	background-image: url(../img/slider-img-01.JPG);
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	// background-size: 100% auto;
 	background-attachment: fixed;
-	background-position: center top;
-	
+	// background-position: center center;
+	// background-position:100px 20px;
+	background-size: cover;
+	// weight: 200vw;
+	// height: 200vh;
+
+
 	border: none;
 	@media only screen and (min-width: 600px){
 		//background-position: 50% 90%;
@@ -59,6 +67,21 @@
 	}
 
 } // temp.
+
+.upcomming-event{
+	img{
+		display: block;
+		float: left;
+		max-width: 200px;
+		width: 100%;
+		// height: auto;
+		height: 150px;
+		background: #ff0;
+		margin-right: 20px;
+	}
+}
+
+
 
 .hotspots-wrapper{
 

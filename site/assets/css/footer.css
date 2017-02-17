@@ -16,22 +16,27 @@
   padding-top: 50px;
   margin-top: 80px;
   position: relative;
-  border: 1px solid #ff0;
-  background-image: url(../img/471853762.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center top;
-  min-height: 1200px;
-  border-top: 8px solid #33cc33; }
+  border: 1px solid #000;
+  background: #333;
+  min-height: 600px;
+  border-top: 20px solid #999;
+  color: #666; }
   .footer-bg a {
     text-decoration: none;
-    color: #333; }
+    color: #666; }
+    .footer-bg a:hover {
+      color: #fff; }
+  .footer-bg:after {
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden; }
 
 .footer {
   border: 1px solid #f00;
+  color: #fff;
   min-height: 300px;
-  position: absolute;
-  top: 400px;
   width: 100%; }
 
 .partners {
@@ -47,8 +52,6 @@
 
 .footer-column-one {
   border: 1px solid #ff0;
-  background: #fff;
-  opacity: .7;
   min-height: 300px; }
 
 .footer-column-two {
@@ -58,11 +61,10 @@
 
 .footer-column-three {
   border: 1px solid #f00;
-  background: #333333;
   min-height: 300px; }
 
 .footer-logo {
-  width: 100px;
+  width: 250px;
   height: 50px;
   display: block;
   margin-top: 10px;
@@ -71,15 +73,40 @@
   text-indent: -2000em;
   background-image: url(../img/sprites.png);
   background-repeat: none;
-  background-position: 0px -79px;
+  background-position: 0px 250px;
   background-size: 500px; }
 
-ul.address {
+dl.footer-address {
   list-style: none; }
+  dl.footer-address dt {
+    float: left;
+    clear: left;
+    width: 25px;
+    margin-right: 5px; }
+    dl.footer-address dt i {
+      display: block;
+      width: 25px;
+      text-indent: -2500em;
+      background: #000; }
+    dl.footer-address dt:after {
+      content: '.';
+      display: block;
+      clear: both;
+      height: 0;
+      visibility: hidden; }
+  dl.footer-address dd {
+    margin-bottom: 3px; }
+
+.credential {
+  width: 253px;
+  border: 1px solid #ff0;
+  box-sizing: border-box; }
+
+.credential, .social-media {
+  margin: 0 auto; }
 
 .social-media ul {
   list-style: none;
-  border: 1px solid #fff;
   margin: 0;
   padding: 0; }
   .social-media ul li {
@@ -197,6 +224,7 @@ ul.address {
   display: block;
   background: #33cc33;
   width: 100%;
+  margin-top: 50px;
   padding: 20px 0; }
 
 .site-by {
