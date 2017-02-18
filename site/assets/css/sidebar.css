@@ -110,3 +110,14 @@
 .side-bar {
   border: 1px solid #333;
   min-height: 600px; }
+  .side-bar section {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box; }
+
+.seed-funds img {
+  display: block;
+  width: 100%;
+  height: 500px;
+  background: #ff0; }

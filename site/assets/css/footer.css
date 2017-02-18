@@ -14,12 +14,11 @@
   display: block;
   box-sizing: border-box;
   padding-top: 50px;
-  margin-top: 80px;
   position: relative;
   border: 1px solid #000;
   background: #333;
   min-height: 600px;
-  border-top: 20px solid #999;
+  border-top: 20px solid #33cc33;
   color: #666; }
   .footer-bg a {
     text-decoration: none;

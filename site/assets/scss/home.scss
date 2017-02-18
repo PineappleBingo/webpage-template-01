@@ -3,13 +3,14 @@
 @import 'grid';
 
 .content-box{
+	position: relative;
 	//background: #333;
 	a{
 		color: #333;
 	}
 
 	.page-content{
-		padding: 10px;
+		// padding: 10px;
 	}
 }
 
@@ -81,8 +82,25 @@
 	}
 }
 
+.how-to-join{
+	position: relative;
+	background: #ccc;
+	section{
+		display: block;
+		margin: 20px auto;
+	}
+}
 
+.sign-up-button{
+	text-transform: uppercase;
+	text-decoration: none;
+	// display: block;
+	border-radius: 10px;
+	padding: 8px 10px;
+	color: $white;
+	background: $green;
+	&:hover{
+		background: $greenshade;
 
-.hotspots-wrapper{
-
+	}
 }
