@@ -3,7 +3,7 @@
 /*/////Mixins//////*/
 /*////Mixin With Arguments////*/
 /*////Call Out A Mixin////*/
-.clear-fix {
+.clear_fix {
   content: '.';
   display: block;
   clear: both;
@@ -112,7 +112,7 @@
 /*/////Mixins//////*/
 /*////Mixin With Arguments////*/
 /*////Call Out A Mixin////*/
-.clear-fix {
+.clear_fix {
   content: '.';
   display: block;
   clear: both;
@@ -245,7 +245,7 @@
 /*/////Mixins//////*/
 /*////Mixin With Arguments////*/
 /*////Call Out A Mixin////*/
-.clear-fix {
+.clear_fix {
   content: '.';
   display: block;
   clear: both;
@@ -326,7 +326,7 @@
 /*/////Mixins//////*/
 /*////Mixin With Arguments////*/
 /*////Call Out A Mixin////*/
-.clear-fix {
+.clear_fix {
   content: '.';
   display: block;
   clear: both;
@@ -431,8 +431,7 @@
     box-sizing: border-box; } }
 
 .side-bar {
-  border: 1px solid #333;
-  min-height: 600px; }
+  min-height: 500px; }
   .side-bar section {
     display: block;
     margin-bottom: 20px;
@@ -450,7 +449,7 @@
 /*/////Mixins//////*/
 /*////Mixin With Arguments////*/
 /*////Call Out A Mixin////*/
-.clear-fix {
+.clear_fix {
   content: '.';
   display: block;
   clear: both;
@@ -461,7 +460,7 @@
   display: block;
   text-transform: uppercase;
   color: #232327;
-  font-size: 15px;
+  font-size: 16px;
   width: 100%;
   height: 120px;
   position: fixed;
@@ -480,17 +479,17 @@
   padding-top: 110px; }
 
 .logo {
-  width: 250px;
+  width: 260px;
   height: 54px;
   display: block;
   float: left;
-  margin-top: 20px;
+  margin-top: 30px;
   display: block;
   overflow: hidden;
   text-indent: -2000em;
   background-image: url(../img/sprites.png);
   background-repeat: none;
-  background-position: 0px -195px;
+  background-position: 0px -205px;
   background-size: 500px; }
 
 #header-nav-container {
@@ -548,7 +547,7 @@
   #header-nav-container #navigation li.drop:hover ul.sub-menu {
     display: block;
     position: absolute;
-    top: 37px;
+    top: 36px;
     left: -40px; }
   #header-nav-container #navigation .sub-menu > li {
     float: left;
@@ -584,7 +583,7 @@
 /*/////Mixins//////*/
 /*////Mixin With Arguments////*/
 /*////Call Out A Mixin////*/
-.clear-fix {
+.clear_fix {
   content: '.';
   display: block;
   clear: both;
@@ -596,11 +595,10 @@
   box-sizing: border-box;
   padding-top: 50px;
   position: relative;
-  border: 1px solid #000;
   background: #333;
-  min-height: 600px;
+  min-height: 300px;
   border-top: 20px solid #33cc33;
-  color: #666; }
+  color: #666 !important; }
   .footer-bg a {
     text-decoration: none;
     color: #666; }
@@ -614,8 +612,7 @@
     visibility: hidden; }
 
 .footer {
-  border: 1px solid #f00;
-  color: #fff;
+  color: #999;
   min-height: 300px;
   width: 100%; }
 
@@ -631,21 +628,19 @@
     height: 80px; }
 
 .footer-column-one {
-  border: 1px solid #ff0;
   min-height: 300px; }
 
 .footer-column-two {
-  border: 1px solid #fff;
   background: #333333;
   min-height: 300px; }
 
 .footer-column-three {
-  border: 1px solid #f00;
+  text-align: right;
   min-height: 300px; }
 
 .footer-logo {
   width: 250px;
-  height: 50px;
+  height: 55px;
   display: block;
   margin-top: 10px;
   display: block;
@@ -653,7 +648,7 @@
   text-indent: -2000em;
   background-image: url(../img/sprites.png);
   background-repeat: none;
-  background-position: 0px 250px;
+  background-position: 0px -264px;
   background-size: 500px; }
 
 dl.footer-address {
@@ -678,12 +673,15 @@ dl.footer-address {
     margin-bottom: 3px; }
 
 .credential {
-  width: 253px;
-  border: 1px solid #ff0;
-  box-sizing: border-box; }
+  width: 253px; }
 
-.credential, .social-media {
+.social-wrapper {
+  width: 350px;
   margin: 0 auto; }
+
+.social-wrapper span {
+  display: bottom;
+  margin-bottom: 10px; }
 
 .social-media ul {
   list-style: none;
@@ -726,7 +724,7 @@ dl.footer-address {
   text-indent: -2000em;
   background-image: url(../img/sprites.png);
   background-repeat: none;
-  background-position: -60px -380px;
+  background-position: -69px -380px;
   background-size: 500px;
   box-sizing: border-box;
   width: 60px;
@@ -737,7 +735,7 @@ dl.footer-address {
     text-indent: -2000em;
     background-image: url(../img/sprites.png);
     background-repeat: none;
-    background-position: -60px -440px;
+    background-position: -69px -440px;
     background-size: 500px; }
 
 .googleplus-icon {
@@ -746,7 +744,7 @@ dl.footer-address {
   text-indent: -2000em;
   background-image: url(../img/sprites.png);
   background-repeat: none;
-  background-position: -120px -380px;
+  background-position: -138px -380px;
   background-size: 500px;
   box-sizing: border-box;
   width: 60px;
@@ -757,7 +755,7 @@ dl.footer-address {
     text-indent: -2000em;
     background-image: url(../img/sprites.png);
     background-repeat: none;
-    background-position: -120px -440px;
+    background-position: -138px -440px;
     background-size: 500px; }
 
 .youtube-icon {
@@ -766,7 +764,7 @@ dl.footer-address {
   text-indent: -2000em;
   background-image: url(../img/sprites.png);
   background-repeat: none;
-  background-position: -180px -380px;
+  background-position: -209px -380px;
   background-size: 500px;
   box-sizing: border-box;
   width: 60px;
@@ -777,7 +775,7 @@ dl.footer-address {
     text-indent: -2000em;
     background-image: url(../img/sprites.png);
     background-repeat: none;
-    background-position: -180px -440px;
+    background-position: -209px -440px;
     background-size: 500px; }
 
 .instagram-icon {
@@ -786,7 +784,7 @@ dl.footer-address {
   text-indent: -2000em;
   background-image: url(../img/sprites.png);
   background-repeat: none;
-  background-position: -240px -380px;
+  background-position: -279px -380px;
   background-size: 500px;
   box-sizing: border-box;
   width: 60px;
@@ -797,21 +795,8 @@ dl.footer-address {
     text-indent: -2000em;
     background-image: url(../img/sprites.png);
     background-repeat: none;
-    background-position: -240px -440px;
+    background-position: -279px -440px;
     background-size: 500px; }
-
-.footer-bottom {
-  display: block;
-  background: #33cc33;
-  width: 100%;
-  margin-top: 50px;
-  padding: 20px 0; }
-
-.site-by {
-  float: right; }
-
-.copy-right {
-  float: left; }
 
 body {
   font-size: 18px;

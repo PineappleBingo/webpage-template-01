@@ -3,7 +3,7 @@
 /*/////Mixins//////*/
 /*////Mixin With Arguments////*/
 /*////Call Out A Mixin////*/
-.clear-fix {
+.clear_fix {
   content: '.';
   display: block;
   clear: both;
@@ -14,7 +14,7 @@
   display: block;
   text-transform: uppercase;
   color: #232327;
-  font-size: 15px;
+  font-size: 16px;
   width: 100%;
   height: 120px;
   position: fixed;
@@ -33,17 +33,17 @@
   padding-top: 110px; }
 
 .logo {
-  width: 250px;
+  width: 260px;
   height: 54px;
   display: block;
   float: left;
-  margin-top: 20px;
+  margin-top: 30px;
   display: block;
   overflow: hidden;
   text-indent: -2000em;
   background-image: url(../img/sprites.png);
   background-repeat: none;
-  background-position: 0px -195px;
+  background-position: 0px -205px;
   background-size: 500px; }
 
 #header-nav-container {
@@ -101,7 +101,7 @@
   #header-nav-container #navigation li.drop:hover ul.sub-menu {
     display: block;
     position: absolute;
-    top: 37px;
+    top: 36px;
     left: -40px; }
   #header-nav-container #navigation .sub-menu > li {
     float: left;

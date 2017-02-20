@@ -3,7 +3,7 @@
 /*/////Mixins//////*/
 /*////Mixin With Arguments////*/
 /*////Call Out A Mixin////*/
-.clear-fix {
+.clear_fix {
   content: '.';
   display: block;
   clear: both;
@@ -111,6 +111,17 @@
   position: relative; }
   .content-box a {
     color: #333; }
+  .content-box .page {
+    margin-bottom: 40px;
+    border: 1px solid; }
+    .content-box .page:after {
+      content: '.';
+      display: block;
+      clear: both;
+      height: 0;
+      visibility: hidden; }
+  .content-box .page-content {
+    float: left; }
 
 .slider-wrapper {
   position: relative;
@@ -126,6 +137,8 @@
   width: 100%;
   background-image: url(../img/slider-img-01.JPG);
   background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center -35vh;
   background-attachment: fixed;
   background-size: cover;
   border: none; }
@@ -136,13 +149,16 @@
     position: absolute;
     bottom: 10%;
     right: 50%;
-    color: #fff;
-    background: #33cc33;
     padding: 8px 12px;
     border-radius: 10px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background: #33cc33; }
+    .slider a:hover {
+      background: #2DBE2D; }
 
-.upcomming-event img {
+.upcomming-event img, .news img {
   display: block;
   float: left;
   max-width: 200px;
@@ -153,16 +169,37 @@
 
 .how-to-join {
   position: relative;
-  background: #ccc; }
-  .how-to-join section {
+  display: block;
+  min-height: 500px;
+  background: #ccc;
+  background-image: url(../img/contact-us-gray-faded.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center right; }
+  .how-to-join .container {
+    min-height: 500px; }
+  .how-to-join .invitation {
     display: block;
-    margin: 20px auto; }
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .how-to-join h1 {
+    color: #fff; }
+    .how-to-join h1:hover {
+      color: #666; }
 
 .sign-up-button {
   text-transform: uppercase;
   text-decoration: none;
+  display: block;
+  width: 95px;
+  border-box: box-sizing;
   border-radius: 10px;
   padding: 8px 10px;
+  margin-top: 40px;
   color: #fff;
   background: #33cc33; }
   .sign-up-button:hover {

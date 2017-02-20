@@ -3,7 +3,7 @@
 /*/////Mixins//////*/
 /*////Mixin With Arguments////*/
 /*////Call Out A Mixin////*/
-.clear-fix {
+.clear_fix {
   content: '.';
   display: block;
   clear: both;

@@ -3,7 +3,7 @@
 /*/////Mixins//////*/
 /*////Mixin With Arguments////*/
 /*////Call Out A Mixin////*/
-.clear-fix {
+.clear_fix {
   content: '.';
   display: block;
   clear: both;
@@ -108,8 +108,7 @@
     box-sizing: border-box; } }
 
 .side-bar {
-  border: 1px solid #333;
-  min-height: 600px; }
+  min-height: 500px; }
   .side-bar section {
     display: block;
     margin-bottom: 20px;
