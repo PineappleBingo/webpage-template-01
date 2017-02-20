@@ -112,8 +112,7 @@
   .content-box a {
     color: #333; }
   .content-box .page {
-    margin-bottom: 40px;
-    border: 1px solid; }
+    margin-bottom: 40px; }
     .content-box .page:after {
       content: '.';
       display: block;
