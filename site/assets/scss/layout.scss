@@ -5,9 +5,12 @@
 @import 'content';
 @import 'sidebar';
 @import 'header';
+@import 'desktop-nav';
+@import 'mobile-nav';
 @import 'footer';
 
 body{
+	
 	font-size: 18px;
 	font-family: sans-serif;
 	color: #333;
@@ -29,6 +32,8 @@ body{
   box-sizing: border-box;
 }
 
+/*/////////// page template 01 /////////*/
+
 #content-box{
 	position: relative;
 	min-height: 700px;
@@ -41,8 +46,4 @@ body{
 		margin-top: -160px;
 		
 	}
-
-
 }
-
-///// i can try magin negative value ///

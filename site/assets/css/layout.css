@@ -426,9 +426,27 @@
   background-position: 0px -205px;
   background-size: 500px; }
 
+/*/Numbers and colors/*/
+/*/////Variables//////*/
+/*/////Mixins//////*/
+/*////Mixin With Arguments////*/
+/*////Call Out A Mixin////*/
+.clear_fix {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+#header-nav-container {
+  display: none; }
+  @media only screen and (min-width: 980px) {
+    #header-nav-container {
+      display: block; } }
+
 #header-nav-container {
   position: absolute;
-  right: 0px;
+  right: 10px;
   bottom: 0px;
   box-sizing: border-box; }
   #header-nav-container #navigation {
@@ -511,6 +529,24 @@
     clear: both;
     height: 0;
     visibility: hidden; }
+
+/*/Numbers and colors/*/
+/*/////Variables//////*/
+/*/////Mixins//////*/
+/*////Mixin With Arguments////*/
+/*////Call Out A Mixin////*/
+.clear_fix {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+#mobile-nav-container {
+  display: block; }
+  @media only screen and (min-width: 980px) {
+    #mobile-nav-container {
+      display: none; } }
 
 /*/Numbers and colors/*/
 /*/////Variables//////*/
@@ -756,6 +792,7 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/*/////////// page template 01 /////////*/
 #content-box {
   position: relative;
   min-height: 700px; }
