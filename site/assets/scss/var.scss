@@ -1,4 +1,4 @@
-/*/////Variables//////*/
+
 /*/Numbers and colors/*/
 $darkgray: #333333;
 $lightgray: #999999;
@@ -6,8 +6,12 @@ $lightgray: #999999;
 $lightgreen: #00cc00;
 $green: #33cc33;
 $greenshade: #2DBE2D;
-
 $white: #fff;
+
+
+/*/////Variables//////*/
+$mobile-width: 980px;
+
 
 /*/////Mixins//////*/
 
@@ -29,6 +33,19 @@ $white: #fff;
 	visibility:hidden;
 }
 
+@mixin border1{
+	border: 1px solid red;
+	box-sizing: border-box;
+}
+@mixin border2{
+	border: 1px solid purple;
+	box-sizing: border-box;
+}
+@mixin border3{
+	 border: 1px solid blue;
+	 box-sizing: border-box;
+}
+
 // @mixin galleryList($x){
 //     @include clearFix;
 // 	li{float:left; width:100% / $x; text-align:center;} 
@@ -42,6 +59,8 @@ $white: #fff;
 	-moz-box-sizing:$x;
 	box-sizing:$x;
 }
+
+
 
 /*////Call Out A Mixin////*/
 .clear_fix{

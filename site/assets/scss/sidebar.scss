@@ -1,14 +1,37 @@
-// @import 'reset';
 @import 'var';
-@import 'grid';
+
+
+.content-inner{
+	
+	.col{
+		// margin: 1% 0 1% 1.6%;
+		// @media only screen and (min-width: $mobile-width){}
+	}
+	.first-column-grid{
+		width: 100%;
+		@media only screen and (min-width: $mobile-width){
+			width: 66.13%;
+		}
+		
+		background: $white;
+		@include border2;
+	}
+	.second-column-grid{
+		display: none !important;
+		@media only screen and (min-width: $mobile-width){
+				display: block !important;
+		}
+		background: $white;
+		@include border3;
+		// width: 32.26%;
+ 	}
+}
 
 .side-bar{
 	// border: 1px solid #333;
 	min-height: 500px;
 	
-	.sidebar-title{
-
-	}
+	.sidebar-title{	}
 
 	section{
 		display: block;
@@ -16,8 +39,6 @@
 		padding: 10px;
 		box-sizing: border-box;
 	}
-
-	
 } // end of .side-bar
 
 .recent-news{
@@ -36,3 +57,7 @@
 
 	}
 }
+
+
+
+/*@media only screen and (min-width: 480px) {}*/

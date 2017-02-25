@@ -37,29 +37,8 @@
 }
 
 
-.content-background{
-	width: 100%;
-	height: 250px;
-	background: $green;
-}
-
 .content-inner{
-	.col{
-		margin: 1% 0 1% 2%;
-	}
-	.span_2_of_3{
-		width: 66.13%;
-	}
-	.span_1_of_3{
-		width: 32.26%;
-	}
-}
-
-.content-inner{
-	// background: #ff0;
-	//position: absolute;
-	//top: 100px;
-	min-height: 700px;
+		
 	.header-img-wrapper{
 		img{
 			display: block;
@@ -73,15 +52,7 @@
 		border: 1px solid #ccc;
 		border-radius: 10px 10px 0px 0px;
 	}
-
-	
 }
-
-
-
-
-
-
 
 /*//////Image Classes/////*/
 

@@ -1,5 +1,17 @@
-/*/////Variables//////*/
 /*/Numbers and colors/*/
+/*/////Variables//////*/
+/*/////Mixins//////*/
+/*////Mixin With Arguments////*/
+/*////Call Out A Mixin////*/
+.clear_fix {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+/*/Numbers and colors/*/
+/*/////Variables//////*/
 /*/////Mixins//////*/
 /*////Mixin With Arguments////*/
 /*////Call Out A Mixin////*/
@@ -62,7 +74,7 @@
   width: 32.26%; }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 980px) {
   .col {
     margin: 1% 0 1% 0%; }
   .span_3_of_3, .span_2_of_3, .span_1_of_3 {

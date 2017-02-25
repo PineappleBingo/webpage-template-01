@@ -20,7 +20,6 @@ body{
 	padding: 0 10px;
 	margin: 0 auto;
 	box-sizing: border-box;
-	//border: 1px solid #ff0;
 	&:after{ @include clearFix;}
 }
 
@@ -29,3 +28,25 @@ body{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+#content-box{
+	position: relative;
+	@include border1;
+	min-height: 700px;
+	.content-bgbar{
+		width: 100%;
+		height: 250px;
+		background: $green;
+	}
+	.content-inner{
+		position: absolute;
+		top: 90px;
+		// min-height: 1500px;
+		// background: $white;
+		@include border1;
+	}
+
+
+}
+
+///// i can try magin negative value ///
