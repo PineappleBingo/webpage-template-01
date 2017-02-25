@@ -12,18 +12,23 @@
 
 .content-inner .first-column-grid {
   width: 100%;
-  background: #fff;
-  border: 1px solid purple;
-  box-sizing: border-box; }
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background: #fff; }
   @media only screen and (min-width: 980px) {
     .content-inner .first-column-grid {
       width: 66.13%; } }
 
 .content-inner .second-column-grid {
+  /* width: 32.26% */
   display: none !important;
+  padding: 20px;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
   background: #fff;
-  border: 1px solid blue;
-  box-sizing: border-box; }
+  /* width: 32.26% */ }
   @media only screen and (min-width: 980px) {
     .content-inner .second-column-grid {
       display: block !important; } }

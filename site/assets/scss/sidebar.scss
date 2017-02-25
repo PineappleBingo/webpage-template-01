@@ -12,23 +12,28 @@
 		@media only screen and (min-width: $mobile-width){
 			width: 66.13%;
 		}
-		
+		border-radius: 10px 10px 0px 0px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
 		background: $white;
-		@include border2;
+				
 	}
 	.second-column-grid{
+		/* width: 32.26% */ 				
 		display: none !important;
 		@media only screen and (min-width: $mobile-width){
 				display: block !important;
 		}
+		padding: 20px;
+		border-radius: 10px 10px 0px 0px;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
 		background: $white;
-		@include border3;
-		// width: 32.26%;
+		/* width: 32.26% */
  	}
 }
 
 .side-bar{
-	// border: 1px solid #333;
 	min-height: 500px;
 	
 	.sidebar-title{	}

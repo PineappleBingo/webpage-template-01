@@ -31,7 +31,6 @@ body{
 
 #content-box{
 	position: relative;
-	@include border1;
 	min-height: 700px;
 	.content-bgbar{
 		width: 100%;
@@ -39,11 +38,8 @@ body{
 		background: $green;
 	}
 	.content-inner{
-		position: absolute;
-		top: 90px;
-		// min-height: 1500px;
-		// background: $white;
-		@include border1;
+		margin-top: -160px;
+		
 	}
 
 
