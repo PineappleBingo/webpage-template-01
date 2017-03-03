@@ -3,9 +3,143 @@
 #mobile-nav-container{
 	display: block;
 	@media only screen and (min-width: $mobile-width) {
-	 	display: none;
+	 	display: none !important;
 	}
 }
+
+#open-panel{
+  background: $lightgreen;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;	
+  position: absolute;
+  right: 10px; 
+  top: 30px;
+  cursor: pointer;
+  &:hover{
+	background: $greenshade;  
+  }
+ }
+
+#open-panel div {
+  background: #f00; 
+  height: 5px;
+  border-radius: 2px;
+  margin-bottom: 4.5px;
+  box-sizing: border-box;
+  &:first-child{
+	margin-top: 8px;
+  }
+}
+
+#open-panel:active div, #open-panel:active div{
+	 
+}
+
+#close-panel{
+	@extend #open-panel;	
+}
+ 
+// #close-panel div{
+// 	@extend #open-panel dt;
+ 
+// }
+
+#overlay{
+	background: rgba(0,0,0, .7);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: 900;
+	display: none;
+}
+
+#panel-container{
+	position: fixed;
+	top: 0;
+	right: -280px;
+	width: 280px;
+	z-index: 1000;
+	height: 100%;
+	box-sizing: border-box;
+	overflow-y: scroll;
+	background: #fff;
+	hr{
+	  border: none;
+	  height: 1px;
+	  background: #ccc;  
+    }
+	ul a{
+	  display: block; 
+	  font-size: 14px;
+	  text-decoration: none;
+	  padding: .5em 2em;
+	  color: $green;	   
+	}
+	
+	ul a:hover, ul a:active{
+	  background: #ccc;
+	  color: #fff; 
+	}
+	
+	ul a:active{
+		padding: .5em .4em .3em inherit;	
+	}
+	
+	ul ul a{
+		font-style: italic;	
+		padding-left: 4em;
+		font-size: 12px;
+	}
+	
+	ul ul ul a{
+		font-style: italic;	
+		padding-left: 2em;
+	}
+	
+}
+ 
+ 
+// #tool-panel-container{
+//   position: fixed;
+//   bottom: 0;
+//   background: #000;
+//   text-align: center;
+//   width: 100%;
+//   box-sizing: border-box;
+//   padding: 10px;
+//   font-size: 13px;
+//   ul:after{
+//     @include clearFix;
+//   }
+//   li{
+// 	width: 25%; 
+// 	float: left;
+// 	box-sizing: border-box;
+// 	border-right: 1px solid #8ca484;
+// 	border-left: 1px solid #627959;
+// 	display: table;
+// 	height: 50px;
+//   }
+//   a{
+// 	color: #fff;
+// 	text-decoration: none;  
+// 	background: #7a976f;
+// 	display: table-cell;
+// 	vertical-align: middle;
+//   }
+//   li:first-child{
+// 	border-left: none;  
+// 	a{border-radius: 2px 0 0  2px;}
+//   }
+//   li:last-child {
+// 	border-right: none;
+// 	a{border-radius: 0 2px 2px 0;}
+//   }
+// }
+
 
 
 // #header-nav-container{
